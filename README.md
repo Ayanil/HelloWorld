@@ -1,4 +1,4 @@
-## One of the easiest way (in my opinion) to deal with git and github is as follow :
+## One of the easiest way (Gwenaël Gouérou in my opinion) to deal with git and github is as follow :
 1. create the repo on github and initialize it with a README
 2. on git select the directory you want to work in (your working directory) with the cd command (cd myDirectory)
 Beware, on the next step, cloning will create a directory named after the remote repo (the one online) so if your remote repo is called datasciencecoursera, and if you called your local working directory the same you'll have a datasciencecoursera folder inside another datasciencecoursera folder, and then you may get confused wit what's what.  

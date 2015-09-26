@@ -1,0 +1,23 @@
+## Hello Tim, i was having the same issues you had, but I think i can be of help. Kindly follow  the steps below :
+1. Go to your Github account and create a repo called Tim_repo. Dont forget to add the readme file to your repo
+2. Leave the webpage and then go to Git bash
+3. Type the following:
+       git clone https://github.com/your account name on github/Tim_repo.git
+4. cd Tim_repo
+5. touch new.md
+6. ls
+you should see readme and new.md files
+7. You can modify your new.md file using the Rstudio...by typing what is required  ....or you can use notepad
+After modification save the new.md file and close it
+8. type:
+  git status
+Observe the results the command displays
+9. git add . 
+10. git status
+11. git commit -m " Edit new.md file"
+12. git status
+13.you can type the command below though it is not compulsory
+git log
+14. git push origin master
+enter your username and password
+15. go to your github account and see the new.md file in your Tim_repo  repository
